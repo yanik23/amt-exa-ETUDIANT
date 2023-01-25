@@ -99,12 +99,14 @@ et un module spec pour le client BDD
  - Ajoutez tous les fichiers du projet dans GIT et faites un premier commit avec le message "initial" et push en utilisant GIT en ligne de commande ou avec IntellJ
  - **Vérifiez le contenu de votre dépôt privé et n'y touchez plus jusqu'à l'examen**
  - Invitez nous **au plus tard lors de la dernière séance AMT du semestre** à votre dépôt privé comme collaborateur via Settings / collaborators de GITHUB :
-   - nicolas.glassey@cpnv-vd.ch
-   - patrick.lachaize@gmail.com
+   - nicolas.glassey@cpnv.ch
+
+* [Voici le résultat après avoir appliqué les modifications](https://github.com/HEIG-vd-AMT/amt-exa-ETUDIANT/pull/1/files)
+
 
 ## Vérification du bon fonctionement avec le endpoint "quotes" inclus dans le projet
  ### Module api
-  - Gérération du dossier target avec "maven clean package" dans le dossier api 
+  - Génération du dossier target avec "maven clean package" dans le dossier api 
 ( IntellJ: fenêtre Maven, onglet ...api/Lifecyle).
 Ne pas utiliser cette commande au niveau du projet car le fichier yaml ne sera pas trouvé
   - Déclaration "Generated Source Root" du dossier target/generated-sources/openapi/src/main/java 
@@ -114,7 +116,7 @@ Ne pas utiliser cette commande au niveau du projet car le fichier yaml ne sera p
   - La base de donnée H2 est accessible à http://localhost:9090/api/h2-console
       url: jdbc:h2:mem:testdb username:sa pas de password
   ### Module spec
-  - Gérération du dossier target avec "maven clean package" dans le dossier spec (IntellJ: fenêtre Maven, onglet ...spec/Lifecycle)
+  - Génération du dossier target avec "maven clean package" dans le dossier spec (IntellJ: fenêtre Maven, onglet ...spec/Lifecycle)
   - Si Springboot tourne, les tests BDD doivent s'exécuter sans erreurs au cours de l'exécution de Maven
   - Déclaration "Generated Source Root" du dossier target/generated-sources/openapi/src/main/java 
   - La Feature Cucumber du dossier src/test/resources/features/quotes.feature doit être exécutable sous IntelliJ
@@ -126,7 +128,7 @@ Ne pas utiliser cette commande au niveau du projet car le fichier yaml ne sera p
     - Développer ou adapter les controlleurs, les DTO et les classes liées dans l'api Springboot
     - Si vous avez ajouté ou modifié des entités, vous pouvez initialiser des données 
       dans le fichier data.sql de src/main/resource
-    - Relancer Sprigboot et faire quelques tests manuels avec swagger-ui
+    - Relancer Springboot et faire quelques tests manuels avec swagger-ui
   - Tests BDD cucumber (en mode TDD, les 2 premières étapes peuvent être effectuées avant le développement de l'api)
     - Relancer "maven clean package" du module spec, les tests seront peut-être en erreur et peuvent être skippés
     - Développer ou adapter les features Cucumber et les steps pour les nouvelles fonctionalités
