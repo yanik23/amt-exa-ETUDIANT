@@ -45,7 +45,7 @@ Vous êtes très fortement encouragés à concevoir votre code "as simple as pos
 sans création d'interfaces ni de classes abstraites ou génériques.
 
 En début d’examen, un fichier **data-all.sql** sera déposé dans le dossier racine 
-du dépôt https://github.com/patricklac/amt-exa-ETUDIANT.
+du dépôt https://github.com/patricklac/amt-exa-LANGE.
 Il contient des "insert" de données pour les tables que vous ferez créer par JPA au déploiement
 et qui vous serviront pour tester votre application (swagger-ui ou Cucumber).
 
@@ -80,19 +80,19 @@ Le travail devra être rendu par un dernier commit (message de commit: "rendu") 
 Vous rendrez également la feuille d'énoncé avec votre nom et votre évaluation point par point de ce que vous avez réalisé. 
 
 ## _A réaliser avant la fin du semestre_ : directives pour la préparation du projet initial pour l'épreuve
- - Dans la suite de ces directives, la chaine de caractère ETUDIANT devra être remplacée à plusieurs endroits. Utilisez à chaque fois le même mot :
+ - Dans la suite de ces directives, la chaine de caractère LANGE devra être remplacée à plusieurs endroits. Utilisez à chaque fois le même mot :
    - Votre propre nom de famille (sans le prénom, **en majuscules**, sans accentuation)
    - Si votre nom de famille est composé, n'utilisez que le premier mot, sauf s'il n'est pas unique dans la classe (acollez-y dans ce cas un différenciateur)
- - git clone amt-exa-ETUDIANT
- - Changez le nom du dossier amt-exa-ETUDIANT en remplaçant ETUDIANT par votre nom
- - Changez les noms des sous-dossiers amt-exa-ETUDIANT-api et amt-exa-ETUDIANT-spec en remplaçant ETUDIANT par votre nom
- - Avec un éditeur de texte, modifiez les fichiers pom.xml du dossier racine et des sous-dossiers api et spec pour remplacer partout ETUDIANT par votre nom
+ - git clone amt-exa-LANGE
+ - Changez le nom du dossier amt-exa-LANGE en remplaçant LANGE par votre nom
+ - Changez les noms des sous-dossiers amt-exa-LANGE-api et amt-exa-LANGE-spec en remplaçant LANGE par votre nom
+ - Avec un éditeur de texte, modifiez les fichiers pom.xml du dossier racine et des sous-dossiers api et spec pour remplacer partout LANGE par votre nom
  - Importez sous IntelliJ le projet (maven) qui contient 2 modules, un module api pour Springboot
 et un module spec pour le client BDD
    - Affectez un Java JDK 17 (File / Project structure / Project /SDK )
-   - Via le menu contextuel "Refactor / Rename", modifiez le nom de la racine des packages des modules api et spec en remplaçant ETUDIANT par votre nom
+   - Via le menu contextuel "Refactor / Rename", modifiez le nom de la racine des packages des modules api et spec en remplaçant LANGE par votre nom
  - Vérifiez le bon fonctionement du endpoint "quotes" inclus dans le projet comme décrit plus loin dans ce readme
- - Créez un dépôt **privé** sur GITHUB de nom amt-exa-ETUDIANT, ETUDIANT remplacé par votre nom
+ - Créez un dépôt **privé** sur GITHUB de nom amt-exa-LANGE, LANGE remplacé par votre nom
  - Mettez à jour le GIT remote de votre projet
    - soit en ligne de commande GIT dans votre dossier: git remote --set-upstream origin [url de votre dépôt privé]
    - soit avec Intellij, menu git / manage remote
@@ -101,7 +101,7 @@ et un module spec pour le client BDD
  - Invitez nous **au plus tard lors de la dernière séance AMT du semestre** à votre dépôt privé comme collaborateur via Settings / collaborators de GITHUB :
    - nicolas.glassey@cpnv.ch
 
-* [Voici le résultat après avoir appliqué les modifications](https://github.com/HEIG-vd-AMT/amt-exa-ETUDIANT/pull/1/files)
+* [Voici le résultat après avoir appliqué les modifications](https://github.com/HEIG-vd-AMT/amt-exa-LANGE/pull/1/files)
 
 
 ## Vérification du bon fonctionement avec le endpoint "quotes" inclus dans le projet
